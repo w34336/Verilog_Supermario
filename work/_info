@@ -1,0 +1,150 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Daniel/Desktop/CSC258/supermario
+vcontrol
+Z1 !s110 1479691571
+!i10b 1
+!s100 bXe2YVOGTonz;QlmgkVeB3
+IM]1TEbzQbOZaM?kfXzcl33
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1479691444
+Z4 8supermario.v
+Z5 Fsupermario.v
+Z6 L0 90
+Z7 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z8 !s108 1479691571.000000
+Z9 !s107 supermario.v|
+Z10 !s90 -reportprogress|300|-timescale|1ns/1ns|supermario.v|
+!i113 1
+Z11 o-timescale 1ns/1ns
+vdatapath
+R1
+!i10b 1
+!s100 0QJnXcWznkn=4SID@2[cO3
+I=2n1kADU^Ig7eFQ<P;Li<1
+R2
+R0
+R3
+R4
+R5
+L0 221
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vdelaycounter
+R1
+!i10b 1
+!s100 BMD;eTPR^=Ua]QzKk8E8h0
+IeVdg_Ia=cIKmJVLZ@Lkzc3
+R2
+R0
+R3
+R4
+R5
+L0 310
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vspeedcounter
+R1
+!i10b 1
+!s100 =Ci6;l0E0_RlYDGhjDAV;2
+IM0ia9BXbI2Jk7cOoPZWOD1
+R2
+R0
+R3
+R4
+R5
+L0 336
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vsupermario
+!s110 1479691364
+!i10b 1
+!s100 l3z:d00ez48nd29ZzanX30
+IU5>C3XW<NOk44h8STK;F>0
+R2
+R0
+w1479691334
+R4
+R5
+R6
+R7
+r1
+!s85 0
+31
+!s108 1479691364.000000
+R9
+R10
+!i113 1
+R11
+vxcounter
+R1
+!i10b 1
+!s100 X3dQ]B5aVA2kAFIVLRFVG1
+IBMJ_;zM=3^];eSdE7zCBc3
+R2
+R0
+R3
+R4
+R5
+L0 259
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+vycounter
+R1
+!i10b 1
+!s100 WYgio;bKEj<>65=TT]U@B1
+I:l_:cKDTV6?;]HSUAYhNF3
+R2
+R0
+R3
+R4
+R5
+L0 285
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11

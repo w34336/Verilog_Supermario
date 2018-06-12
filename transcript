@@ -1,0 +1,1281 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# OpenFile C:/Users/Daniel/Desktop/CSC258/supermario/testxycounter.do
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:43:15 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns xycounter.v 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# ** Error: (vlog-13069) xycounter.v(76): near "EOF": syntax error, unexpected end of source code.
+# 
+# End time: 16:43:15 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testxycounter.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns xycounter.v"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:43:33 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns xycounter.v 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# ** Error: xycounter.v(64): (vlog-2110) Illegal reference to net "q".
+# 
+# ** Error: xycounter.v(69): (vlog-2110) Illegal reference to net "q".
+# 
+# ** Error: xycounter.v(71): (vlog-2110) Illegal reference to net "q".
+# 
+# ** Error: xycounter.v(74): (vlog-2110) Illegal reference to net "q".
+# 
+# End time: 16:43:33 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testxycounter.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns xycounter.v"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:43:57 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns xycounter.v 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# 
+# Top level modules:
+# 	xcounter
+# 	ycounter
+# 	delaycounter
+# End time: 16:43:57 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim xcounter 
+# Start time: 16:43:57 on Nov 20,2016
+# Loading work.xcounter
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:46:06 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns xycounter.v 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# 
+# Top level modules:
+# 	xcounter
+# 	ycounter
+# 	delaycounter
+# End time: 16:46:06 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:46:06 on Nov 20,2016, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 0
+# vsim delaycounter 
+# Start time: 16:46:06 on Nov 20,2016
+# Loading work.delaycounter
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 16:46:29 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns xycounter.v 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# 
+# Top level modules:
+# 	xcounter
+# 	ycounter
+# 	delaycounter
+# End time: 16:46:29 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 16:46:30 on Nov 20,2016, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 0
+# vsim delaycounter 
+# Start time: 16:46:30 on Nov 20,2016
+# Loading work.delaycounter
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:44:58 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(61): (vlog-2388) 'colour_in' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(62): (vlog-2388) 'x_in' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(63): (vlog-2388) 'y_in' already declared in this scope (supermario).
+# 
+# -- Compiling module control
+# ** Error: supermario.v(120): (vlog-2730) Undefined variable: 'STAY'.
+# 
+# ** Error: supermario.v(137): (vlog-2730) Undefined variable: 'x_en'.
+# 
+# ** Error: supermario.v(138): (vlog-2730) Undefined variable: 'y_en'.
+# 
+# ** Error: supermario.v(139): (vlog-2730) Undefined variable: 'x_ud'.
+# 
+# ** Error: supermario.v(140): (vlog-2730) Undefined variable: 'y_ud'.
+# 
+# ** Error: supermario.v(142): (vlog-2730) Undefined variable: 'd_en'.
+# 
+# ** Error: supermario.v(189): (vlog-2730) Undefined variable: 's_q'.
+# 
+# End time: 17:44:58 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 10, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testxycounter.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:49:45 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(61): (vlog-2388) 'colour_in' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(62): (vlog-2388) 'x_in' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(63): (vlog-2388) 'y_in' already declared in this scope (supermario).
+# 
+# -- Compiling module control
+# ** Error: supermario.v(144): (vlog-2730) Undefined variable: 'd_en'.
+# 
+# ** Error: supermario.v(191): (vlog-2730) Undefined variable: 's_q'.
+# 
+# ** Error (suppressible): supermario.v(199): (vlog-2388) 's_q' already declared in this scope (control).
+# 
+# End time: 17:49:45 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 6, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testxycounter.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:51:40 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(61): (vlog-2388) 'colour_in' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(62): (vlog-2388) 'x_in' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(63): (vlog-2388) 'y_in' already declared in this scope (supermario).
+# 
+# -- Compiling module control
+# ** Error (suppressible): supermario.v(200): (vlog-2388) 's_q' already declared in this scope (control).
+# 
+# End time: 17:51:40 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testxycounter.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:52:04 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module control
+# ** Error (suppressible): supermario.v(200): (vlog-2388) 's_q' already declared in this scope (control).
+# 
+# End time: 17:52:04 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./testxycounter.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:52:21 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 17:52:21 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:52:21 on Nov 20,2016, Elapsed time: 1:05:51
+# Errors: 21, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.control
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /control File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:52:30 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 17:52:30 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.control
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /control File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:53:13 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 17:53:13 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.control
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /control File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:54:12 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module control
+# 
+# Top level modules:
+# 	control
+# End time: 17:54:13 on Nov 20,2016, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.control
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /control File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 17:59:37 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# 
+# Top level modules:
+# 	supermario
+# End time: 17:59:37 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.control
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /control File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:00:39 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:00:39 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# ** Error: (vsim-3170) Could not find 'C:/Users/Daniel/Desktop/CSC258/supermario/work.control'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+OpenFile C:/Users/Daniel/Desktop/CSC258/supermario/testxycounter.do
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:01:08 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:01:08 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# ** Error: (vsim-3170) Could not find 'C:/Users/Daniel/Desktop/CSC258/supermario/work.control'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:01:12 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:01:12 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim control 
+# Start time: 17:52:21 on Nov 20,2016
+# ** Error: (vsim-3170) Could not find 'C:/Users/Daniel/Desktop/CSC258/supermario/work.control'.
+# 
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:02:09 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:02:09 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.supermario
+# ** Error: (vsim-3033) supermario.v(196): Instantiation of 'xcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# ** Error: (vsim-3033) supermario.v(197): Instantiation of 'ycounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# ** Error: (vsim-3033) supermario.v(198): Instantiation of 'delaycounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:03:23 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:03:23 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.supermario
+# ** Error: (vsim-3033) supermario.v(196): Instantiation of 'xcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# ** Error: (vsim-3033) supermario.v(197): Instantiation of 'ycounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# ** Error: (vsim-3033) supermario.v(198): Instantiation of 'delaycounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# ** Error: (vsim-3033) supermario.v(202): Instantiation of 'speedcounter' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /supermario File: supermario.v
+#         Searched libraries:
+#             C:/Users/Daniel/Desktop/CSC258/supermario/work
+# Error loading design
+# Error: Error loading design
+#        Pausing macro execution
+# MACRO ./testxycounter.do PAUSED at line 12
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:03:59 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:03:59 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 17:52:21 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(196): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(211).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/x0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(197): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(237).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/y0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(198): [PCDPC] - Port size (20) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(261).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/d0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(202): [PCDPC] - Port size (5) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(287).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/s0 File: supermario.v
+# ** Error (suppressible): (vish-4008) Object 'enable' not found.
+# Error in macro ./testxycounter.do line 20
+# ** Error (suppressible): (vish-4008) Object 'enable' not found.
+# 
+#     while executing
+# "force {enable} 0 0, 1 500"
+do testxycounter.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:04:36 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:04:36 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:04:37 on Nov 20,2016, Elapsed time: 0:12:16
+# Errors: 17, Warnings: 4
+# vsim supermario 
+# Start time: 18:04:37 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(196): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(211).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/x0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(197): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(237).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/y0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(198): [PCDPC] - Port size (20) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(261).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/d0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(202): [PCDPC] - Port size (5) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(287).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/s0 File: supermario.v
+# ** Error (suppressible): (vish-4008) Object 'enable' not found.
+# Error in macro ./testxycounter.do line 20
+# ** Error (suppressible): (vish-4008) Object 'enable' not found.
+# 
+#     while executing
+# "force {enable} 0 0, 1 500"
+do mario_test.do
+# Cannot open macro file: mario_test.do
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:05:03 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:05:03 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:05:04 on Nov 20,2016, Elapsed time: 0:00:27
+# Errors: 2, Warnings: 4
+# vsim supermario 
+# Start time: 18:05:04 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(196): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(211).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/x0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(197): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(237).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/y0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(198): [PCDPC] - Port size (20) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(261).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/d0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(202): [PCDPC] - Port size (5) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(287).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/s0 File: supermario.v
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:05:29 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:05:29 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:05:30 on Nov 20,2016, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 4
+# vsim supermario 
+# Start time: 18:05:30 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(196): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(211).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/x0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(197): [PCDPC] - Port size (8) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(237).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/y0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(198): [PCDPC] - Port size (20) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(261).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/d0 File: supermario.v
+# ** Warning: (vsim-3015) supermario.v(202): [PCDPC] - Port size (5) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(287).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/s0 File: supermario.v
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:07:41 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:07:41 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:07:41 on Nov 20,2016, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 4
+# vsim supermario 
+# Start time: 18:07:42 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(198): [PCDPC] - Port size (20) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(261).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/d0 File: supermario.v
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:08:33 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:08:33 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:08:33 on Nov 20,2016, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 1
+# vsim supermario 
+# Start time: 18:08:33 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(198): [PCDPC] - Port size (20) does not match connection size (1) for port 'q'. The port definition is at: supermario.v(261).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/d0 File: supermario.v
+# Error opening C:/Users/Daniel/Desktop/CSC258/supermario/(vsim-3015) supermario.v
+# Path name 'C:/Users/Daniel/Desktop/CSC258/supermario/(vsim-3015) supermario.v' doesn't exist.
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:08:56 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:08:56 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:08:56 on Nov 20,2016, Elapsed time: 0:00:23
+# Errors: 1, Warnings: 1
+# vsim supermario 
+# Start time: 18:08:56 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 18:12:27 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 18:12:27 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 18:12:28 on Nov 20,2016, Elapsed time: 0:03:32
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 18:12:28 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:03:53 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error: supermario.v(193): (vlog-2730) Undefined variable: 'x_den'.
+# 
+# ** Error: supermario.v(194): (vlog-2730) Undefined variable: 'x_fen'.
+# 
+# ** Error: (vlog-13069) supermario.v(199): near "wire": syntax error, unexpected wire.
+# 
+# ** Error: supermario.v(200): LHS in procedural continuous assignment may not be a net: x_den.
+# ** Error: supermario.v(201): (vlog-2730) Undefined variable: 'y_den'.
+# 
+# ** Error: supermario.v(201): LHS in procedural continuous assignment may not be a net: y_den.
+# ** Error: supermario.v(203): Checker 'xcounter' not found. Instantiation 'x0' must be of a visible checker.
+# ** Error: supermario.v(204): (vlog-2730) Undefined variable: 'y_fen'.
+# 
+# ** Error: supermario.v(204): Checker 'ycounter' not found. Instantiation 'y0' must be of a visible checker.
+# ** Error: supermario.v(205): Checker 'delaycounter' not found. Instantiation 'd0' must be of a visible checker.
+# ** Error: (vlog-13069) supermario.v(207): near "wire": syntax error, unexpected wire.
+# 
+# ** Error: supermario.v(208): (vlog-2730) Undefined variable: 's_en'.
+# 
+# ** Error: supermario.v(208): LHS in procedural continuous assignment may not be a net: s_en.
+# ** Error: supermario.v(209): Checker 'speedcounter' not found. Instantiation 's0' must be of a visible checker.
+# ** Error: (vlog-13069) supermario.v(211): near "endmodule": syntax error, unexpected endmodule.
+# 
+# ** Error: supermario.v(203): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: supermario.v(204): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: supermario.v(205): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: supermario.v(209): A begin/end block was found with an empty body.  This is permitted in SystemVerilog, but not permitted in Verilog.  Please look for any stray semicolons.
+# ** Error: supermario.v(251): (vlog-2730) Undefined variable: 'q'.
+# 
+# ** Error: supermario.v(253): (vlog-2730) Undefined variable: 'enable'.
+# 
+# ** Error: supermario.v(255): (vlog-2730) Undefined variable: 'updown'.
+# 
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 19:03:53 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 22, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:04:06 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error: supermario.v(193): (vlog-2730) Undefined variable: 'x_den'.
+# 
+# ** Error: supermario.v(194): (vlog-2730) Undefined variable: 'x_fen'.
+# 
+# ** Error (suppressible): supermario.v(200): (vlog-2388) 'x_den' already declared in this scope (supermario).
+# 
+# ** Error (suppressible): supermario.v(200): (vlog-2388) 'x_fen' already declared in this scope (supermario).
+# 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 19:04:06 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 4, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:04:31 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error: supermario.v(195): (vlog-2110) Illegal reference to net "x_fen".
+# 
+# ** Error: supermario.v(197): (vlog-2110) Illegal reference to net "x_fen".
+# 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 19:04:31 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:05:05 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error: supermario.v(196): (vlog-2110) Illegal reference to net "x_fen".
+# 
+# ** Error: supermario.v(198): (vlog-2110) Illegal reference to net "x_fen".
+# 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 19:05:05 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:06:43 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 19:06:43 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:06:43 on Nov 20,2016, Elapsed time: 0:54:15
+# Errors: 40, Warnings: 0
+# vsim supermario 
+# Start time: 19:06:43 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:08:26 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 19:08:26 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:08:26 on Nov 20,2016, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 19:08:26 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 19:08:45 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 19:08:45 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 19:08:45 on Nov 20,2016, Elapsed time: 0:00:19
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 19:08:46 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:12:32 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module datapath
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# 	datapath
+# End time: 20:12:32 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:12:32 on Nov 20,2016, Elapsed time: 1:03:46
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 20:12:32 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(212): [PCDPC] - Port size (7) does not match connection size (8) for port 'q'. The port definition is at: supermario.v(290).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/y0 File: supermario.v
+# ** Error (suppressible): (vish-4008) Object 'jump' not found.
+# Error in macro ./mario_test.do line 24
+# ** Error (suppressible): (vish-4008) Object 'jump' not found.
+# 
+#     while executing
+# "force {jump} 0 0"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:12:47 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module datapath
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# 	datapath
+# End time: 20:12:47 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:12:48 on Nov 20,2016, Elapsed time: 0:00:16
+# Errors: 1, Warnings: 1
+# vsim supermario 
+# Start time: 20:12:48 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Warning: (vsim-3015) supermario.v(212): [PCDPC] - Port size (7) does not match connection size (8) for port 'q'. The port definition is at: supermario.v(290).
+#    Time: 0 ns  Iteration: 0  Instance: /supermario/y0 File: supermario.v
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:13:49 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error: (vlog-13069) supermario.v(97): near "output": syntax error, unexpected output, expecting ')'.
+# 
+# End time: 20:13:49 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:14:06 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module datapath
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# 	datapath
+# End time: 20:14:06 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:14:07 on Nov 20,2016, Elapsed time: 0:01:19
+# Errors: 4, Warnings: 1
+# vsim supermario 
+# Start time: 20:14:07 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:14:47 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(103): (vlog-2388) 'delay_q' already declared in this scope (supermario).
+# 
+# ** Error: supermario.v(195): (vlog-2730) Undefined variable: 'd_q'.
+# 
+# -- Compiling module datapath
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 20:14:47 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:15:08 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(103): (vlog-2388) 'delay_q' already declared in this scope (supermario).
+# 
+# -- Compiling module datapath
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 20:15:08 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:15:53 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(103): (vlog-2388) 'delay_q' already declared in this scope (supermario).
+# 
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 20:15:53 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:16:08 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:16:08 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:16:09 on Nov 20,2016, Elapsed time: 0:02:02
+# Errors: 10, Warnings: 0
+# vsim supermario 
+# Start time: 20:16:09 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:16:45 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:16:45 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:16:46 on Nov 20,2016, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 20:16:46 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+# ** Error: <EOF> reached in ./mario_test.do with incomplete command at line 23
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:17:15 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:17:15 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:17:16 on Nov 20,2016, Elapsed time: 0:00:30
+# Errors: 1, Warnings: 0
+# vsim supermario 
+# Start time: 20:17:16 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:18:07 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:18:07 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:18:08 on Nov 20,2016, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 20:18:08 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:22:00 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:22:00 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:22:01 on Nov 20,2016, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 20:22:01 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:22:17 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:22:17 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:22:18 on Nov 20,2016, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 20:22:18 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:22:44 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# 
+# Top level modules:
+# 	supermario
+# End time: 20:22:44 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 20:22:45 on Nov 20,2016, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 0
+# vsim supermario 
+# Start time: 20:22:45 on Nov 20,2016
+# Loading work.supermario
+# Loading work.xcounter
+# Loading work.ycounter
+# Loading work.delaycounter
+# Loading work.speedcounter
+do mario_test.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 20:26:11 on Nov 20,2016
+# vlog -reportprogress 300 -timescale 1ns/1ns supermario.v 
+# -- Compiling module supermario
+# ** Error (suppressible): supermario.v(59): (vlog-2388) 'colour_in' already declared in this scope (supermario).
+# 
+# -- Compiling module control
+# -- Compiling module datapath
+# -- Compiling module xcounter
+# -- Compiling module ycounter
+# -- Compiling module delaycounter
+# -- Compiling module speedcounter
+# End time: 20:26:11 on Nov 20,2016, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+# Error in macro ./mario_test.do line 9
+# C:/altera_lite/16.0/modelsim_ase/win32aloem/vlog failed.
+#     while executing
+# "vlog -timescale 1ns/1ns supermario.v"
+# End time: 20:37:49 on Nov 20,2016, Elapsed time: 0:15:04
+# Errors: 3, Warnings: 0
